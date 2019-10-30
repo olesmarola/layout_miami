@@ -1,0 +1,44 @@
+.consultation {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .consultation__article {
+    max-width: 480px; }
+  .consultation__title {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: normal;
+    margin-bottom: 24px; }
+  .consultation__button {
+    padding: 11px 140px; }
+  .consultation__paragraph {
+    line-height: 24px; }
+
+@media (max-width: 950px) {
+  .consultation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 15px; }
+    .consultation__title {
+      text-align: center; } }
+
+@media (max-width: 400px) {
+  .consultation {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+    .consultation__title {
+      text-align: start; }
+    .consultation__button {
+      padding: 11px 70px; } }
+
+/*# sourceMappingURL=consultation.css.map */

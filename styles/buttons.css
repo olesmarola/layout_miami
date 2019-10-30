@@ -1,0 +1,15 @@
+.button {
+  border: none;
+  display: block;
+  color: #fff;
+  background-color: #00aaef;
+  font-size: 14px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s; }
+  .button:hover {
+    background-color: #2f80ed;
+    cursor: pointer; }
+
+/*# sourceMappingURL=buttons.css.map */

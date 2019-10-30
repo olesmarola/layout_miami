@@ -1,0 +1,58 @@
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 65px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #000;
+  text-align: center; }
+
+.person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  line-height: 24px; }
+  .person__image {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin-bottom: 12px; }
+  .person__name {
+    font-weight: bolt; }
+  .person__position {
+    font-style: italic;
+    color: #696973;
+    margin-bottom: 16px; }
+  .person__text {
+    position: relative; }
+    .person__text::after {
+      position: absolute;
+      content: "";
+      display: block;
+      width: 40px;
+      height: 33px;
+      background-image: url(../images/quotes.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      bottom: calc(100% - 4px);
+      right: calc(100% - 4px); }
+
+@media (max-width: 950px) {
+  .testimonials {
+    grid-template-columns: 200px; } }
+
+@media (max-width: 400px) {
+  .contact-us__button {
+    padding: 11px 70px; } }
+
+/*# sourceMappingURL=testimonials.css.map */

@@ -1,0 +1,15 @@
+.footer {
+  bottom: 0;
+  height: 540px;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: -1;
+  background-image: url("../images/footer.jpg");
+  background-size: cover;
+  background-position: center; }
+  .footer__logo {
+    position: absolute;
+    left: calc(50% - 57.5px);
+    bottom: 95px; }
+
+/*# sourceMappingURL=footer.css.map */
