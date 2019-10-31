@@ -58,6 +58,8 @@
   .testimonials {
     grid-template-columns: 200px; }
   .contact-us__button {
-    padding: 11px 70px; } }
+    padding: 11px 70px; }
+  .person:last-child {
+    position: static; } }
 
 /*# sourceMappingURL=testimonials.css.map */
