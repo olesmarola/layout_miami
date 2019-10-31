@@ -24,7 +24,7 @@
     line-height: 24px;
     max-width: 564px; }
 
-@media (max-width: 950px) {
+@media (max-width: 999px) {
   .preamble {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

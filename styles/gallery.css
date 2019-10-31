@@ -22,23 +22,26 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
-  .gallery__lable {
-    margin: 12px 0 35px; }
-    .gallery__lable--last {
+  .gallery__label {
+    margin: 12px 0 35px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1; }
+    .gallery__label--last {
       margin-bottom: 0; }
   .gallery__button {
     margin: 44px auto 0;
     padding: 19px 62px; }
 
-.lable__decoration {
+.label__decoration {
   color: #00aaef;
   text-decoration: none;
   -webkit-transition: color 0.2s;
   transition: color 0.2s; }
-  .lable__decoration:hover {
+  .label__decoration:hover {
     color: #2f80ed; }
 
-@media (max-width: 950px) {
+@media (max-width: 999px) {
   .gallery {
     padding: 0 15px; }
     .gallery__image--wide-left:first-child, .gallery__image--wide-right:first-child {

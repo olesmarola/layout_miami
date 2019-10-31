@@ -8,7 +8,7 @@
   .contact-us__button {
     padding: 11px 140px; }
 
-@media (max-width: 950px) {
+@media (max-width: 999px) {
   .contact-us {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

@@ -27,7 +27,7 @@
     border-radius: 75px;
     margin-bottom: 12px; }
   .person__name {
-    font-weight: bolt; }
+    font-weight: bold; }
   .person__position {
     font-style: italic;
     color: #696973;
@@ -47,11 +47,16 @@
       bottom: calc(100% - 4px);
       right: calc(100% - 4px); }
 
-@media (max-width: 950px) {
+@media (max-width: 999px) {
   .testimonials {
-    grid-template-columns: 200px; } }
+    grid-template-columns: repeat(2, 200px); }
+  .person:last-child {
+    position: relative;
+    left: calc(100% - 65px); } }
 
 @media (max-width: 400px) {
+  .testimonials {
+    grid-template-columns: 200px; }
   .contact-us__button {
     padding: 11px 70px; } }
 
